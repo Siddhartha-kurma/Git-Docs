@@ -1,0 +1,85 @@
+.LOG
+
+8:13 PM 8/17/2019
+
+git init
+
+git config --global user.name "hcl_skurma"
+git config --global user.email "siddhartha.kurma@ironmountain.com"
+git status
+touch file1
+git status
+git add file1
+git commit -m "1st commit"
+git status
+
+git add ./*/-A/ file1 file2 
+
+8:16 PM 8/17/2019
+
+9:36 PM 8/17/2019
+git clone path of the url of github
+
+git push
+(usr name & pwd)
+
+git reset --soft commit id
+
+git reset --head
+
+git reset --mixed cid
+
+git log --online -n
+
+git log --since= yy-mm-dd
+git log --until=yy-mm-dd
+
+12:07 PM 8/18/2019
+
+git clone github url
+
+git pull--It pulls the repository from the github
+
+git push -- It pushes the repository to the github
+
+git branch--
+
+git branch branch-name
+
+git checkout branch-name
+
+git merge branch-name
+
+
+10:22 PM 8/18/2019
+
+git checkout -b branch-name --create and checkout to new branch
+
+git push origin -d branch-name -delete the branch from remote
+
+git branch -D branch-name
+
+git merge --abort -- To resolve conflicts
+
+
+
+10:44 AM 8/20/2019
+
+
+Stash
+------
+
+git status
+ git stash save "lable"
+git stash list
+git stash pop
+git stash pop stash@{1}
+git stash apply
+git stash apply stash@{n}
+git stash drop
+git stash drop stash@{n}
+
+tag
+---
+
+git stash show -p stash@{n}
